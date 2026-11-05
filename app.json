@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "SMD OTP App",
+    "slug": "smd-otp-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "smdotpapp",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.smd.otpapp"
+    },
+    "android": {
+      "package": "com.smd.otpapp",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
